@@ -68,7 +68,22 @@ export const dictionary = {
                 "Fleet management",
                 "Supply cost savings",
                 "Time savings in your operations"
-            ]
+            ],
+            sections: {
+                solutionsTitle: "Our B2B Solutions",
+                platform: {
+                    available: "Available Now",
+                    title: "Complete Fleet Control",
+                    titleHighlight: "At Your Fingertips.",
+                    description: "Our proprietary B2B Platform gives you transparency and control over your energy spend. Say goodbye to lost receipts and unauthorized fill-ups."
+                },
+                cta: {
+                    title: "Ready to optimize your fleet?",
+                    subtitle: "Join the leading companies in Benin trusting GoGo for their energy needs.",
+                    requestQuote: "Request a Quote",
+                    clientLogin: "Client Login"
+                }
+            }
         },
         app: {
             title: "On-demand fuel:",
@@ -381,7 +396,22 @@ export const dictionary = {
                 "Gestion de flotte",
                 "Économies sur les coûts d'approvisionnement",
                 "Gain de temps dans vos opérations"
-            ]
+            ],
+            sections: {
+                solutionsTitle: "Nos Solutions B2B",
+                platform: {
+                    available: "Disponible Maintenant",
+                    title: "Contrôle Total de la Flotte",
+                    titleHighlight: "Au Bout des Doigts.",
+                    description: "Notre plateforme B2B propriétaire vous offre transparence et contrôle sur vos dépenses énergétiques. Dites adieu aux reçus perdus et aux remplissages non autorisés."
+                },
+                cta: {
+                    title: "Prêt à optimiser votre flotte ?",
+                    subtitle: "Rejoignez les principales entreprises au Bénin qui font confiance à GoGo pour leurs besoins énergétiques.",
+                    requestQuote: "Demander un Devis",
+                    clientLogin: "Connexion Client"
+                }
+            }
         },
         app: {
             title: "Carburant à la demande :",

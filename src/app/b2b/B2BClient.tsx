@@ -114,7 +114,7 @@ export default function B2BClient() {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center max-w-3xl mx-auto mb-16">
                         <ScrollReveal delay={0.1}>
-                            <h2 className="text-3xl font-bold text-slate-900 mb-4">Our B2B Solutions</h2>
+                            <h2 className="text-3xl font-bold text-slate-900 mb-4">{t.b2b.sections.solutionsTitle}</h2>
                         </ScrollReveal>
                         <ScrollReveal delay={0.2}>
                             <p className="text-slate-600 text-lg leading-relaxed">
@@ -171,18 +171,17 @@ export default function B2BClient() {
 
                         <div className="order-1 lg:order-2">
                             <ScrollReveal direction="right" delay={0.1}>
-                                <span className="text-accent font-bold tracking-wider text-sm uppercase mb-2 block">Available Now</span>
+                                <span className="text-accent font-bold tracking-wider text-sm uppercase mb-2 block">{t.b2b.sections.platform.available}</span>
                             </ScrollReveal>
                             <ScrollReveal delay={0.2}>
                                 <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">
-                                    Complete Fleet Control<br />
-                                    <span className="text-slate-400">At Your Fingertips.</span>
+                                    {t.b2b.sections.platform.title}<br />
+                                    <span className="text-slate-400">{t.b2b.sections.platform.titleHighlight}</span>
                                 </h2>
                             </ScrollReveal>
                             <ScrollReveal delay={0.3}>
                                 <p className="text-lg text-slate-600 mb-8">
-                                    Our proprietary B2B Platform gives you transparency and control over your energy spend.
-                                    Say goodbye to lost receipts and unauthorized fill-ups.
+                                    {t.b2b.sections.platform.description}
                                 </p>
                             </ScrollReveal>
 
@@ -215,11 +214,11 @@ export default function B2BClient() {
             <section className="py-20 bg-slate-900">
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <ScrollReveal delay={0.1}>
-                        <h2 className="text-3xl font-bold text-white mb-6">Ready to optimize your fleet?</h2>
+                        <h2 className="text-3xl font-bold text-white mb-6">{t.b2b.sections.cta.title}</h2>
                     </ScrollReveal>
                     <ScrollReveal delay={0.2}>
                         <p className="text-slate-400 mb-8 text-lg">
-                            Join the leading companies in Benin trusting GoGo for their energy needs.
+                            {t.b2b.sections.cta.subtitle}
                         </p>
                     </ScrollReveal>
                     <ScrollReveal delay={0.3} direction="up">
@@ -228,7 +227,7 @@ export default function B2BClient() {
                                 href="/quote"
                                 className="bg-accent hover:bg-[#d65a15] text-white px-8 py-4 rounded-full font-bold transition-colors flex items-center justify-center gap-2"
                             >
-                                Request a Quote
+                                {t.b2b.sections.cta.requestQuote}
                                 <ArrowRight className="w-5 h-5" />
                             </Link>
                             <a
@@ -237,7 +236,7 @@ export default function B2BClient() {
                                 rel="noopener noreferrer"
                                 className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-bold transition-colors border border-white/20"
                             >
-                                Client Login
+                                {t.b2b.sections.cta.clientLogin}
                             </a>
                         </div>
                     </ScrollReveal>
