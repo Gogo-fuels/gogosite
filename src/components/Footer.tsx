@@ -20,8 +20,6 @@ export default function Footer() {
                                     alt="GoGo"
                                     width={40}
                                     height={40}
-                                    width={40}
-                                    height={40}
                                     className="object-contain w-full h-full p-1 rounded-full"
                                 />
                             </div>
