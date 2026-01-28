@@ -14,13 +14,15 @@ export default function Footer() {
                     {/* Brand Column */}
                     <div className="col-span-2 lg:col-span-2">
                         <Link href="/" className="flex items-center gap-2 mb-6">
-                            <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center relative">
+                            <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center relative overflow-hidden">
                                 <Image
                                     src="/reviewer/logo_circle.png"
                                     alt="GoGo"
                                     width={40}
                                     height={40}
-                                    className="object-contain w-full h-full p-1"
+                                    width={40}
+                                    height={40}
+                                    className="object-contain w-full h-full p-1 rounded-full"
                                 />
                             </div>
                             <span className="text-xl font-extrabold text-slate-900">GoGo</span>
