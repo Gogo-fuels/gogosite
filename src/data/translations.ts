@@ -438,7 +438,7 @@ export const dictionary = {
         about: {
             badge: "À Propos de GoGo",
             title: "À Propos de Nous",
-            description: "GoGo est notre réponse à la promesse du génie africain : utiliser la technologie pour résoudre nos propres défis quotidiens.",
+            description: "GoGo est notre réponse à la promesse du génie : utiliser la technologie pour résoudre nos propres défis quotidiens.",
             cta: "Lire notre histoire",
             searchPlaceholder: "Rechercher des réponses...",
             noResults: "Aucune question correspondant à votre recherche.",
