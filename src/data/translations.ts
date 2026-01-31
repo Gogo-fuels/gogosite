@@ -601,7 +601,7 @@ export const dictionary = {
             ourVision: "Notre Vision",
             heroTitle: "VOTRE CARBURANT,",
             heroSuffix: "PARTOUT ET À TOUT MOMENT",
-            heroDesc: "GoGo est notre réponse à la promesse du génie africain : utiliser la technologie pour résoudre nos propres défis quotidiens. Nous ne livrons pas seulement du carburant ; nous livrons du temps et de la tranquillité d'esprit.",
+            heroDesc: "GoGo est notre réponse à la promesse du génie : utiliser la technologie pour résoudre nos propres défis quotidiens. Nous ne livrons pas seulement du carburant ; nous livrons du temps et de la tranquillité d'esprit.",
             originTitle: "Notre Origine",
             whyStarted: "Pourquoi la solution GoGo",
             originText: "En Afrique, nous connaissons tous le défi : les embouteillages interminables, les stations-service bondées ou parfois à sec, et ces précieuses minutes perdues alors que nous pourrions être avec nos proches ou à nos bureaux. GoGo est né d'un constat simple : si le monde change, la manière dont nous nous approvisionnons en énergie doit aussi changer. Nous avons créé GoGo pour répondre à un besoin fondamental d'efficacité dans nos villes africaines en pleine mutation.",
